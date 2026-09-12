@@ -1,11 +1,28 @@
 {
   "name": "jan-kruis/toolbox",
   "description": "Set of tools for Roundcube webmail",
-  "keywords": ["roundcubemail","postfixadmin","postfix","roundcube","purge","vacation","login","customize", "cloud", "google","onedrive","dropbox","cloud","database","sql","tools","out-of-office", "forward"],
-  "homepage": "https://github.com/jan-kruis/toolbox/",
+  "keywords": [
+    "roundcubemail",
+    "postfixadmin",
+    "postfix",
+    "roundcube",
+    "purge",
+    "vacation",
+    "login",
+    "customize",
+    "cloud",
+    "google",
+    "onedrive",
+    "dropbox",
+    "database",
+    "sql",
+    "tools",
+    "out-of-office",
+    "forward"
+  ],
+  "homepage": "https://github.com/Jan-Kruis/toolbox",
   "license": "GPL-3.0-or-later",
   "type": "roundcube-plugin",
-  "version": "1.7.0",
   "authors": [
     {
       "name": "Gianluca Giacometti",
@@ -13,18 +30,12 @@
       "role": "Developer"
     }
   ],
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://plugins.roundcube.net"
-    }
-  ],
   "require": {
     "php": ">=5.4.0",
     "roundcube/plugin-installer": ">=0.2.0"
   },
   "suggest": {
-    "piwik/device-detector": ">=3.10.2 required for tool SafeLogin"
+    "piwik/device-detector": ">=3.10.2"
   },
   "extra": {
     "roundcube": {
